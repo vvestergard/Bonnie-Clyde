@@ -1,23 +1,110 @@
-body
-{
+body {
     padding: 0px;
     margin: 0px;
     font-family: 'Tw Cen MT';
 }
 
-nav
-{
-    height: 40px;
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 1000px;
+}
+
+/*Navigation*/
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #353535;
+    border-bottom: 1px solid white;
+}
+
+.navSpace {
+    margin-right: 20px;
+}
+
+
+#logoText {
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+
+li {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+
+a {
+    text-decoration: none;
+    transition: .2s;
+    color: #ffffff;
+    font: 100;
+    position: relative;
+}
+
+    a:hover {
+        transition: .2s;
+        position: relative;
+        opacity: 0.5;
+    }
+
+/*Start*/
+
+.startCont {
+    height: 50vh;
     width: 100%;
     background-color: grey;
 }
 
-ul
-{
-    
+.startImg {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
 }
 
-li
+#startText {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 200px;
+    color: white;
+    font-size: 4em;
+    text-shadow: 0px 2px 20px black;
+}
+
+/*Produkt*/
+
+.productCont {
+    background-color: #eeeeee;
+    height: 50vh;
+    width: 100%;
+}
+
+#productText {
+    
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    color: #737373;
+    font-size: 3em;
+}
+
+.prodCircle
 {
+    background-color: #e2e2e2;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
     display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    margin-right: 50px;
+    text-align: center;
 }
