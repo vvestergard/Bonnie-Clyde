@@ -1,0 +1,23 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Tw Cen MT';
+}
+
+nav
+{
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+}
+
+ul
+{
+    
+}
+
+li
+{
+    display: inline-block;
+}
